@@ -45,7 +45,7 @@ html,body{width:100%; background:#f6f6f6; font-family:"微软雅黑","黑体";}
 a.qr_btndsa2{background:#6691e9; width:220px; height:42px; line-height:42px; text-align:center; border-radius:4px;font-size:18px; margin:0 auto; margin-top:10px; color:#fff; display:block; text-decoration:none; transition:none;}
 a.qr_btndsa2:hover{ opacity:.9;}
 .hei320pxa{ padding:20px 60px; height:500px;}
-.zhengjian_box{ background:url(http://222.143.32.139:9000/lawCardRecover/showCode?id=155091&type=1) no-repeat; background-size:340px 500px; width:340px; height:500px; text-align:center; position:relative; box-sizing:border-box; color:#000; line-height:28px; padding:30px 20px;}
+.zhengjian_box{ background:url(http://222.143.32.139:9000/upload/images/bg_zhengjian.png) no-repeat; background-size:340px 500px; width:340px; height:500px; text-align:center; position:relative; box-sizing:border-box; color:#000; line-height:28px; padding:30px 20px;}
 .touxing_picd{ width:160px; height:200px; background:#eee; margin:0 auto; margin-bottom:18px;}
 .touxing_picd img{width:160px; height:200px; }
 
