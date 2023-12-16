@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+
+/*-- 首页 --*/
+
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+    margin: 0px;
+    padding: 0px; 
+}
+
+ul, ol, li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+a:link,a:visited,a:active{ color:#333;text-decoration:none; -webkit-transition:all .2s linear;transition:all .2s linear;}a:hover{ color:#008aff; text-decoration:underline; webkit-transition: .5s; transition: .5s;}
+table{border-collapse:collapse;border-spacing:0;}
+.fl{float:left;}.fr{float:right;}
+.clear{clear:both;}
+img{ vertical-align:middle;}
+
+.clearfix:after { 
+    visibility: hidden; 
+    display: block; 
+    font-size: 0; 
+    content: " "; 
+    clear: both; 
+    height: 0; 
+} 
+
+input,select{font-family:"微软雅黑","黑体";}
+
+html,body{width:100%; background:#f6f6f6; font-family:"微软雅黑","黑体";}
+
+::-webkit-scrollbar{width: 10px;}
+::-webkit-scrollbar-thumb{background:#d8d8d8; border-radius:5px;}
+::-webkit-scrollbar-track{background:#f6f6f6; }
+::-webkit-scrollbar-button{display: none;}
+
+
+
+/*-- 证件预览新增CSS --*/
+.kaosheng_box2{width:940px; height:620px; background:#fff; margin:0 auto; overflow:hidden; overflow-y:scroll;}
+a.qr_btndsa2{background:#6691e9; width:220px; height:42px; line-height:42px; text-align:center; border-radius:4px;font-size:18px; margin:0 auto; margin-top:10px; color:#fff; display:block; text-decoration:none; transition:none;}
+a.qr_btndsa2:hover{ opacity:.9;}
+.hei320pxa{ padding:20px 60px; height:500px;}
+.zhengjian_box{ background:url(../../../upload/images/bg_zhengjian.png) no-repeat; background-size:340px 500px; width:340px; height:500px; text-align:center; position:relative; box-sizing:border-box; color:#000; line-height:28px; padding:30px 20px;}
+.touxing_picd{ width:160px; height:200px; background:#eee; margin:0 auto; margin-bottom:18px;}
+.touxing_picd img{width:160px; height:200px; }
+
+.zhengjian_box h2{ font-size:32px; font-weight:normal; line-height:44px; }
+.zhengjian_box h2 img{ height:30px; width:30px; margin-left:12px;}
+.zhengjian_box h4{ position:absolute; bottom:35px; line-height:30px; text-align:center; left:0px; text-align:center; font-size:24px; color:#000; width:100%;}
+.zhengjian_box h3{ font-size:24px; font-weight:normal; line-height:32px; margin-top:40px; }
+.zhengjian_box h4.haed{ font-size:18px; font-weight:normal;}
+.guohui{ width:160px; margin:0 auto; margin-bottom:15px;}
+.guohui img{width:160px; height:auto; }
+.yingyu{ font-size:13px;}
+
+
+
